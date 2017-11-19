@@ -13,7 +13,6 @@ async function main() {
       const svgText = (await readFile('in/' + item.md5)).toString()
       if (/<image/.test(svgText)) {
         console.log('Contains embedded image:', item.name)
-        filteredLibrary.push(item)
       } else {
         console.log('Good:', item.name)
         filteredLibrary.push(item)
