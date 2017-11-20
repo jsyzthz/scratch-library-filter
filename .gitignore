@@ -1,2 +1,5 @@
-out/
-in/
+download-assets/out/*
+!download-assets/out/.gitkeep
+
+filter-svgs/in/*
+!filter-svgs/in/.gitkeep
